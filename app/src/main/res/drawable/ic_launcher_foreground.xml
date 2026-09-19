@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Stylized F stem -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,32h6v44h-6z" />
+
+    <!-- Stylized F top arm -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,32h30v6h-30z" />
+
+    <!-- Stylized 1 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M64,32h6v44h-6z" />
+
+    <!-- Integrated EKG Line -->
+    <!-- Starting from left, spike between F and 1, ending on right -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M20,54 L28,54 M34,54 L40,54 L46,40 L52,68 L58,54 L64,54 M70,54 L80,54" />
+
+    <!-- Medical Cross (Top Right) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M78,22h10v2.5h-10z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M81.75,18.25h2.5v10h-2.5z" />
+
+</vector>
